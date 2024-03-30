@@ -1,0 +1,92 @@
+* {
+    margin: 0 !important;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --ora: orange;
+}
+
+.nav-bar {
+    background-image: url(images/banner.png);
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
+    color: white;
+    margin-bottom: 0 !important;
+}
+
+.question {
+    color: black;
+}
+
+.image-mob {
+    /* height: 100vh; */
+}
+
+@keyframes swing {
+    20% {
+        -webkit-transform: rotate(15deg);
+        transform: rotate(15deg)
+    }
+
+    40% {
+        -webkit-transform: rotate(-10deg);
+        transform: rotate(-10deg)
+    }
+
+    60% {
+        -webkit-transform: rotate(5deg);
+        transform: rotate(5deg)
+    }
+
+    80% {
+        -webkit-transform: rotate(-5deg);
+        transform: rotate(-5deg)
+    }
+
+    to {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+}
+
+.swing:hover {
+    -webkit-transform-origin: top center;
+    transform-origin: top center;
+    -webkit-animation-name: swing;
+    animation-name: swing
+}
+
+.div-2 {
+    background-color: black;
+    height: 100vh;
+    margin-top: 0 !important;
+    position: relative;
+}
+
+.box1 {
+    width: 40%;
+    background-color: orange;
+    height: 50vh;
+    margin: 0 auto;
+    position: absolute;
+    top: 150px;
+}
+
+.box2>img {
+    width: 40%;
+    height: 50vh;
+    position: absolute;
+    top:170px ;
+    right: 1085px;
+}
+.box3 {
+    color: black;
+    background-color: white;
+    width: 20rem;
+    padding: 20px;
+    position: absolute;
+    top: 217px;
+    right: 866px;
+}
