@@ -14,14 +14,16 @@
     background-repeat: no-repeat;
     color: white;
     margin-bottom: 0 !important;
+    height: 100vh;
 }
 
 .question {
     color: black;
+    text-decoration: none;
 }
 
 .image-mob {
-    /* height: 100vh; */
+    height: 100vh;
 }
 
 @keyframes swing {
@@ -61,8 +63,12 @@
 .div-2 {
     background-color: black;
     height: 100vh;
-    margin-top: 0 !important;
+    margin-top: 0 !important
+}
+
+.div2 {
     position: relative;
+    height: 100vh;
 }
 
 .box1 {
@@ -72,21 +78,66 @@
     margin: 0 auto;
     position: absolute;
     top: 150px;
+    left: 20px;
 }
 
 .box2>img {
     width: 40%;
     height: 50vh;
     position: absolute;
-    top:170px ;
-    right: 1085px;
+    top: 170px;
+    right: 632px;
 }
+
 .box3 {
-    color: black;
+    color: black !important;
     background-color: white;
-    width: 20rem;
+    width: 32rem;
     padding: 20px;
     position: absolute;
     top: 217px;
-    right: 866px;
+    right: 240px;
+}
+
+/* div 3 */
+.div-3 {
+    background-color: antiquewhite;
+    height: 100vh;
+
+}
+
+.head3 {
+    color: grey;
+}
+
+.card-3:hover {
+    background-color: rgba(0, 0, 0, 0.742) !important;
+}
+
+/* div4 */
+.f-quest {
+    margin-top: 0 !important;
+}
+
+/* footer */
+.footer {
+    background-color: black;
+}
+
+.text-footer {
+    color: grey;
+}
+
+.form-foot>input,
+textarea {
+    border: none;
+    border-bottom: 2px solid gray !important;
+    background-color: black;
+}
+.form-foot>input:hover,
+textarea:hover {
+    border: none;
+    border-bottom: 2px solid gray !important;
+    background-color: black;
+
 }
